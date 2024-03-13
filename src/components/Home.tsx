@@ -29,6 +29,7 @@ const Home = () => {
     } else {
       // docSnap.data() will be undefined in this case
       console.log("No such document!");
+      return;
     }
   };
 
